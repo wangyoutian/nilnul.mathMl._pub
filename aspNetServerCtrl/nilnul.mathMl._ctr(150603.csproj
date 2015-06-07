@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9D2C1487-125C-4533-B4FF-B810ABEEE85A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>nilnul.mathMl._ctr</RootNamespace>
+    <AssemblyName>nilnul.mathMl._ctr%28150603</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Nonshipping>true</Nonshipping>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DOf.cs" />
+    <Compile Include="IntegralPrefix.cs" />
+    <Compile Include="IntersectUnder.cs" />
+    <Compile Include="InverseRow.cs" />
+    <Compile Include="MFencedRow.cs" />
+    <Compile Include="MFenced.cs" />
+    <Compile Include="Mfenced_wrapperEmpty.cs" />
+    <Compile Include="Inverse.cs" />
+    <Compile Include="MiB.cs" />
+    <Compile Include="MiA.cs" />
+    <Compile Include="Mi.cs" />
+    <Compile Include="Mi_x.cs" />
+    <Compile Include="PlusOne.cs" />
+    <Compile Include="Mi_j.cs" />
+    <Compile Include="MiJ.cs" />
+    <Compile Include="MinusOne.cs" />
+    <Compile Include="MiI.cs" />
+    <Compile Include="Mfenced_seperatorsEmpty.cs" />
+    <Compile Include="Mo_sube.cs" />
+    <Compile Include="Mo_isIn.cs" />
+    <Compile Include="Mi_i.cs" />
+    <Compile Include="MoAnd.cs" />
+    <Compile Include="IntegralSign_Mo.cs" />
+    <Compile Include="ApplyFunctionMo.cs" />
+    <Compile Include="DifferentialMo.cs" />
+    <Compile Include="Mfrac2.cs" />
+    <Compile Include="Differential.cs" />
+    <Compile Include="ApplyFunction_entity.cs" />
+    <Compile Include="IntegralSign.cs" />
+    <Compile Include="MIntPrefix.cs" />
+    <Compile Include="Mi_b.cs" />
+    <Compile Include="Mi_a%28xml.cs" />
+    <Compile Include="Mn0.cs" />
+    <Compile Include="MoLt.cs" />
+    <Compile Include="MoGt.cs" />
+    <Compile Include="MoInvisibleTimes_entity.cs" />
+    <Compile Include="MoInvisibleTimes.cs" />
+    <Compile Include="MoEllip.cs" />
+    <Compile Include="Mn1.cs" />
+    <Compile Include="MoPlus.cs" />
+    <Compile Include="MoMinus.cs" />
+    <Compile Include="MoEq.cs" />
+    <Compile Include="Frac_nullBoxTemplate.cs" />
+    <Compile Include="Mrow1.cs" />
+    <Compile Include="Mrow.cs" />
+    <Compile Include="Msub3.cs" />
+    <Compile Include="Munder_Pi.cs" />
+    <Compile Include="Munder.cs" />
+    <Compile Include="Power_template.cs" />
+    <Compile Include="Power.cs" />
+    <Compile Include="FracHalf.cs" />
+    <Compile Include="Gt0.cs" />
+    <Compile Include="UnionUnder.cs" />
+    <Compile Include="Xsquare.cs" />
+    <Compile Include="Msubsup.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sqrt.cs" />
+    <Compile Include="Ln.cs" />
+    <Compile Include="Mint3.cs" />
+    <Compile Include="Msup2.cs" />
+    <Compile Include="WrapperA2.cs" />
+    <Compile Include="Msub2.cs" />
+    <Compile Include="WrapperA3.cs" />
+    <Compile Include="NoWrapperA.cs" />
+    <Compile Include="Math3.cs" />
+    <Compile Include="ASub1_.cs" />
+    <Compile Include="InvisibleTimes.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
